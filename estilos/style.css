@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+ 
+body{
+    background-color: #c5ebd6;
+    margin: 0px;
+    
+   
+}
+
+h2{
+    background-image: linear-gradient(to right, rgb(149, 191, 149), white);
+} 
+
+/*  começo cabeçalho*/
+header{
+ background-image: linear-gradient( rgb(80, 213, 80), rgb(37, 36, 36) );
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+ 
+header > h1{
+    text-align: center;
+    color: white; 
+    }
+    
+    
+
+header > p{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    }
+    
+    
+
+.menu > a{
+        text-decoration: none ;
+        color: white;
+        margin-right: 20px;
+        
+ }
+
+ /* animação*/
+ .menu > a:hover{
+    background-color: green;
+    text-decoration: underline;
+font-family: 'idroid' serif;
+    
+
+    }
+    
+ /* fim do menu */
+
+ main{
+    padding: 5px 5px 10px 5px;
+    background-color: white;
+    margin: 0px 150px 0px 150px;
+ }
+
+.parte1 > h1{
+    background: linear-gradient(to right, rgb(149, 191, 149), white);
+}
+
+  .imagen1{
+     text-align: center;
+  }
+
+  .imagen1 > p{
+    text-align: justify;
+  }
+
+
+    .imagen2 > img{
+    display: block;
+    margin: auto;
+        padding: auto;
+        width: 100%;
+        }
+    
+    
+
+   
+   
+
+.video {
+    
+    text-align: center;
+    margin: 10px 0;
+    border: 15px solid rgb(0, 0, 0);
+    background-color: rgb(120, 219, 120);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    margin: 0px 300px 0px 300px;
+    
+    }
+
+/* lista*/
+
+.lista{
+    background-color: #c5ebd6;
+    margin: 0px 50px 20px 50px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px 0px 10px 0px ;
+}
+
+
+.lista > h3{
+    background-color: rgb(49, 225, 49);
+    padding: 10px 0;
+    border-radius: 15px;
+  text-align: justify;
+  color: white;
+}
+
+.lista > p{
+ margin:  20px;
+ text-align: justify;
+;
+}
+
+.lista > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista > ul > li {
+    width: 45%;
+    text-align: left;
+    padding: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+#footer
+   {
+background-color: rgb(138, 224, 138);
+padding-top: 10px;
+margin: 0px;
+text-align: center;
+   }
