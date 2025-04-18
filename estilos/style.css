@@ -1,6 +1,8 @@
-@charset "UTF-8";
+@charset "UTF-8"; 
 
- 
+   
+
+
 body{
     background-color: #c5ebd6;
     margin: 0px;
@@ -146,3 +148,7 @@ padding-top: 10px;
 margin: 0px;
 text-align: center;
    }
+    footer :hover  {
+        border-color: aqua;
+
+    }
